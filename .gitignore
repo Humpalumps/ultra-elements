@@ -1,0 +1,8 @@
+node_modules
+dist
+video
+.claude
+# internal working notes (agent briefs, handover)
+dev/HANDOVER.md
+dev/*_BRIEF.md
+dev/promo/shotplan.md

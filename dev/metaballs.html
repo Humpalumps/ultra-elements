@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ultra Elements · metaballs sandbox</title>
+  <style>
+    html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
+    canvas { display: block; width: 100%; height: 100%; touch-action: none; }
+    #hud {
+      position: fixed; left: 8px; top: 8px; padding: 8px 10px; border-radius: 8px; white-space: pre;
+      font: 11px/1.4 ui-monospace, Consolas, monospace; color: #e8f4ff; background: rgba(6, 10, 14, 0.6);
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="hud"></div>
+  <script type="module" src="./metaballs.js"></script>
+</body>
+</html>

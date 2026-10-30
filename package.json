@@ -1,0 +1,32 @@
+{
+  "name": "ultra-elements",
+  "version": "0.1.0",
+  "description": "Real-time elemental spell VFX lab for three.js (WebGL2)",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "files": [
+    "src",
+    "SPELLBOOK.md",
+    "CONTRIBUTING.md",
+    "THIRD_PARTY_NOTICES.md"
+  ],
+  "exports": {
+    "./vfx/*": "./src/vfx/*",
+    "./spells/*": "./src/spells/*",
+    "./engine/*": "./src/engine/*",
+    "./scene/*": "./src/scene/*"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lil-gui": "^0.21.0",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "vite": "^8.3.5"
+  }
+}
